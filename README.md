@@ -1,3 +1,5 @@
+# puppy_bowl
+
 Welcome to the annual Puppy Bowl! Teams of puppies will compete in a variety of events, including fetching sticks, wagging tails, and looking adorable! You've been contracted to build a web application that will let administrators manage the players participating in the Puppy Bowl.
 
 Read the API documentation before starting.
