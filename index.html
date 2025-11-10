@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puppy Bowl Roster Manager</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>🐾 The Puppy Bowl Roster</h1>
+    </header>
+
+    <main>
+      <div class="left-column">
+        <section id="roster-section">
+          <h2>Current Roster</h2>
+          <div id="roster-container">
+            <p>Loading puppies...</p>
+          </div>
+        </section>
+
+        <section id="new-player-section">
+          <h2>Invite a puppy</h2>
+          <form id="add-player-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required /><br />
+
+            <label for="breed">Breed:</label>
+            <input type="text" id="breed" name="breed" required /><br />
+
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+              <option value="bench" selected>Bench</option>
+              <option value="field">Field</option></select
+            ><br />
+
+            <label for="imageUrl">Image URL:</label>
+            <input type="text" id="imageUrl" name="imageUrl" /><br />
+
+            <label for="teamId">Team:</label>
+            <select id="teamId" name="teamId">
+              <option value="" selected>Unassigned (Optional)</option></select
+            ><br />
+
+            <button type="submit">Invite puppy</button>
+            <p id="form-message"></p>
+          </form>
+        </section>
+      </div>
+
+      <section id="details-section">
+        <h2>Selected Puppy Details</h2>
+        <div id="player-details">
+          <p>Please select a puppy from the roster to see their details.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
