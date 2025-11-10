@@ -1,5 +1,5 @@
 // --- API Configuration ---
-const COHORT = "2803-PUPPIES";
+const COHORT = "2510-JONTAE";
 const BASE_URL = `https://fsa-puppy-bowl.herokuapp.com/api/${COHORT}/`;
 
 //If you would like to, you can create a variable to store the API_URL here.

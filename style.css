@@ -11,9 +11,12 @@ body {
 header {
   background-color: #ffb703; /* Puppy gold */
   color: white;
-  padding: 20px;
+  padding: 4px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 40px;
 }
 
 main {
